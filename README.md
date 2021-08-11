@@ -1,6 +1,6 @@
 # asteroidrage-client
  
- run locally:
+install & run:
 ```bash
 git clone https://github.com/GoschiWoschi/asteroidrage-client.git asteroidrage-client
 cd asteroidrage-client
