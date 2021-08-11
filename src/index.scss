@@ -1,0 +1,47 @@
+html, body, #root {
+    height:100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+$theme-colors: (
+    "facebook":#4267B2,
+    "google":#DB4437,
+    "primary":#48F,
+
+    "fuel":rgb(127,255,0),
+    "ammo":rgb(255,127,0),
+    "missiles":#007fff,
+    "sp":#bfbfbf,
+    "hp":#bfbfbf
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.screen-center {
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bg-black-trans {
+    background: rgba(0,0,0,0.5);
+}
+
+.progress-bar {
+    text-align: left;
+}
+
+.progress-label {
+    position: absolute;
+    top: 0;
+    height:3em;
+    line-height: 3em;
+    color:white;
+    right:1em;
+    mix-blend-mode: difference;
+}
